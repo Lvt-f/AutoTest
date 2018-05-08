@@ -7,6 +7,7 @@ public class IgnoreTest {
 
     @Test
     public void ignore1(){
+
         System.out.println("ignore1 执行啦");
     }
     @Test(enabled = false)
